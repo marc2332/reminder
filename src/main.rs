@@ -2,6 +2,7 @@ use std::{thread, time};
 use notifica::{{notify}};
 
 fn main(){
+	println!("Starting reminder...");
 	execute(1800000, false) // Every 30 minutes
 }
 
@@ -21,5 +22,5 @@ fn execute(delay: u64, log: bool){
 
 #[test]
 fn test(){
-	execute(2000, true)
+	execute(2000, true) // Every 2 seconds
 }
