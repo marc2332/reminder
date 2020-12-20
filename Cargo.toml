@@ -1,0 +1,8 @@
+[package]
+name = "reminder"
+version = "0.1.0"
+authors = ["Marc <mespinsanz@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+notifica = "2.0.0"
